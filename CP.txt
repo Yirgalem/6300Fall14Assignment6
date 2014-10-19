@@ -1,0 +1,33 @@
+# Input File Name:
+  Name:
+      Not Present.	[property Nofilename] [error]
+      Present. 		[if !Nofilename] [single]
+
+# Input Number Of Lines:
+  Number of lines:
+      Not integer.        [error] 
+      negative integer.   [error] 
+      Zero.               [if !Nofilename] [property zerovallue] [single]
+      One.     		  [if !Nofilename]
+      Multiple.		  [if !Nofilename]
+      Maximum integer.    [if !Nofilename]
+
+# File
+  Size:
+      Empty.           [property emptyfile] [single]
+      Not Empty.       [if !emptyfile] 
+
+  Number of Lines in the file:
+      zero.            [if emptyfile] [property NoLines] [single]
+      one.             [if !NoLines]
+      Many.            [if !NoLines]
+      Maximum Integer. [if !NoLines]
+
+  Empty Space lines in the File:
+      zero.            [if   NoLines] 
+      one.             [if  !NoLines] 
+      many.            [if  !NoLines]
+      maximum integer. [if emptyfile && !NoLines]
+
+
+      

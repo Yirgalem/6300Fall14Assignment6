@@ -1,0 +1,172 @@
+
+Test Case 1  		<error>
+   Name :  Not Present
+
+
+Test Case 2  		<single>  (follows [if])
+   Name :  Present
+
+
+Test Case 3  		<error>
+   Number of lines :  Not integer
+
+
+Test Case 4  		<error>
+   Number of lines :  negative integer
+
+
+Test Case 5  		<single>  (follows [if])
+   Number of lines :  Zero
+
+
+Test Case 6  		<single>
+   Size :  Empty
+
+
+Test Case 7  		<single>  (follows [if])
+   Number of Lines in the file :  zero
+
+
+Test Case 8  		(Key = 0.4.2.2.2.)
+   Name                          :  <n/a>
+   Number of lines               :  One
+   Size                          :  Not Empty
+   Number of Lines in the file   :  one
+   Empty Space lines in the File :  one
+
+
+Test Case 9  		(Key = 0.4.2.2.3.)
+   Name                          :  <n/a>
+   Number of lines               :  One
+   Size                          :  Not Empty
+   Number of Lines in the file   :  one
+   Empty Space lines in the File :  many
+
+
+Test Case 10 		(Key = 0.4.2.3.2.)
+   Name                          :  <n/a>
+   Number of lines               :  One
+   Size                          :  Not Empty
+   Number of Lines in the file   :  Many
+   Empty Space lines in the File :  one
+
+
+Test Case 11 		(Key = 0.4.2.3.3.)
+   Name                          :  <n/a>
+   Number of lines               :  One
+   Size                          :  Not Empty
+   Number of Lines in the file   :  Many
+   Empty Space lines in the File :  many
+
+
+Test Case 12 		(Key = 0.4.2.4.2.)
+   Name                          :  <n/a>
+   Number of lines               :  One
+   Size                          :  Not Empty
+   Number of Lines in the file   :  Maximum Integer
+   Empty Space lines in the File :  one
+
+
+Test Case 13 		(Key = 0.4.2.4.3.)
+   Name                          :  <n/a>
+   Number of lines               :  One
+   Size                          :  Not Empty
+   Number of Lines in the file   :  Maximum Integer
+   Empty Space lines in the File :  many
+
+
+Test Case 14 		(Key = 0.5.2.2.2.)
+   Name                          :  <n/a>
+   Number of lines               :  Multiple
+   Size                          :  Not Empty
+   Number of Lines in the file   :  one
+   Empty Space lines in the File :  one
+
+
+Test Case 15 		(Key = 0.5.2.2.3.)
+   Name                          :  <n/a>
+   Number of lines               :  Multiple
+   Size                          :  Not Empty
+   Number of Lines in the file   :  one
+   Empty Space lines in the File :  many
+
+
+Test Case 16 		(Key = 0.5.2.3.2.)
+   Name                          :  <n/a>
+   Number of lines               :  Multiple
+   Size                          :  Not Empty
+   Number of Lines in the file   :  Many
+   Empty Space lines in the File :  one
+
+
+Test Case 17 		(Key = 0.5.2.3.3.)
+   Name                          :  <n/a>
+   Number of lines               :  Multiple
+   Size                          :  Not Empty
+   Number of Lines in the file   :  Many
+   Empty Space lines in the File :  many
+
+
+Test Case 18 		(Key = 0.5.2.4.2.)
+   Name                          :  <n/a>
+   Number of lines               :  Multiple
+   Size                          :  Not Empty
+   Number of Lines in the file   :  Maximum Integer
+   Empty Space lines in the File :  one
+
+
+Test Case 19 		(Key = 0.5.2.4.3.)
+   Name                          :  <n/a>
+   Number of lines               :  Multiple
+   Size                          :  Not Empty
+   Number of Lines in the file   :  Maximum Integer
+   Empty Space lines in the File :  many
+
+
+Test Case 20 		(Key = 0.6.2.2.2.)
+   Name                          :  <n/a>
+   Number of lines               :  Maximum integer
+   Size                          :  Not Empty
+   Number of Lines in the file   :  one
+   Empty Space lines in the File :  one
+
+
+Test Case 21 		(Key = 0.6.2.2.3.)
+   Name                          :  <n/a>
+   Number of lines               :  Maximum integer
+   Size                          :  Not Empty
+   Number of Lines in the file   :  one
+   Empty Space lines in the File :  many
+
+
+Test Case 22 		(Key = 0.6.2.3.2.)
+   Name                          :  <n/a>
+   Number of lines               :  Maximum integer
+   Size                          :  Not Empty
+   Number of Lines in the file   :  Many
+   Empty Space lines in the File :  one
+
+
+Test Case 23 		(Key = 0.6.2.3.3.)
+   Name                          :  <n/a>
+   Number of lines               :  Maximum integer
+   Size                          :  Not Empty
+   Number of Lines in the file   :  Many
+   Empty Space lines in the File :  many
+
+
+Test Case 24 		(Key = 0.6.2.4.2.)
+   Name                          :  <n/a>
+   Number of lines               :  Maximum integer
+   Size                          :  Not Empty
+   Number of Lines in the file   :  Maximum Integer
+   Empty Space lines in the File :  one
+
+
+Test Case 25 		(Key = 0.6.2.4.3.)
+   Name                          :  <n/a>
+   Number of lines               :  Maximum integer
+   Size                          :  Not Empty
+   Number of Lines in the file   :  Maximum Integer
+   Empty Space lines in the File :  many
+
